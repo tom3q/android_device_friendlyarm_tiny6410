@@ -24,6 +24,9 @@ on boot
     setprop status.battery.level_raw  50
     setprop status.battery.level_scale 9
 
+# ts calibration
+    write /sys/devices/platform/tiny6410-1wire.0/tiny6410-1wire-touchscreen/calibration "480 -195 8524 272 -3781 -5152"
+
 # wi-fi
     mkdir /data/misc/wifi/sockets 0770 wifi wifi
     mkdir /data/misc/dhcp 0770 dhcp dhcp
