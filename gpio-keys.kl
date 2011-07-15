@@ -1,0 +1,10 @@
+# gpio-keys key layout for FriendlyARM Tiny6410 board
+
+key 158     POWER           WAKE
+key 139     MENU
+key 105     SEARCH
+key 108     VOLUME_DOWN
+key 103     VOLUME_UP
+key 106     HOME
+key 102     BACK
+key 232     CAMERA
